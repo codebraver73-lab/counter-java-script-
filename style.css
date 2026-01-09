@@ -1,0 +1,29 @@
+#counter-container{
+    width:100vw;
+    height:100vh; 
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+#resetbtn{
+    border-radius: 5px;
+    border:none;
+    background-color: black;
+    color:white;
+
+}
+
+#resetbtn:hover{
+  cursor:pointer;
+
+}
+
+#number-container{
+    height:30px;
+    width: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
